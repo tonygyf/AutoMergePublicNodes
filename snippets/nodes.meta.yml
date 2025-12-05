@@ -2208,3 +2208,61 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|FR_speednode_0001
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.61.165
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 14|IR_speednode_0005
+  port: 443
+  reality-opts:
+    public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
+  server: 151.243.171.156
+  servername: pingless.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
+- client-fingerprint: random
+  name: 14|SG_speednode_0006
+  network: ws
+  port: 443
+  server: 20.247.137.183
+  servername: ak.suoni.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+  ws-opts:
+    headers:
+      Host: ak.suoni.nyc.mn
+    path: /proxyip=sjc.o00o.ooo
+- name: 14|US_speednode_0008
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.49.45
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0009
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.49.45
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0012
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.180.93.12
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
